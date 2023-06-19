@@ -1,9 +1,7 @@
-
-
 function calculateDemeritPoints() {
   
   let speedInput = document.getElementById("speed");
-  let pointsOutput = document.getElementById("pointsResult");
+  let pointsOutput = document.getElementById("result");
    
   let speed = parseInt(speedInput.value);
   
