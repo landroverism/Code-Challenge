@@ -1,0 +1,16 @@
+
+
+.calculate-grade {
+  background-color: rgb(72, 72, 247);
+color: white;
+border-color: red;
+border-radius: 30px;
+width: 100px;
+height: 19;
+
+}
+
+
+.calculate-grade:hover {
+  background-color: green;
+}

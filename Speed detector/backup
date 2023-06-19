@@ -1,0 +1,21 @@
+function speedMonitor (speed) 
+  if (speed <70) {
+    return 'ok'
+  }
+  if (speed >12) {
+let points = (speed -70)/5
+if (points >12) {
+  return 'license suspended'
+}
+else {
+  return 'points'
+}
+
+function points(){
+  let number_string=document.getElementById('number').value
+  let number =parseInt(number_string);
+  let points=speedDetector(number);
+  document.getElementById('Points').innerHTML= '<b>'+points+'</b>';
+}
+
+}
